@@ -1,9 +1,10 @@
 package part3;
 
-public class TestLibroury {
+public class TestLibrary {
     public static void main(String[] args) {
-        Libroury lb = new Libroury();
+        Library lb = new Library();
         lb.takeBooks(10, 6);
 
     }
+
 }
