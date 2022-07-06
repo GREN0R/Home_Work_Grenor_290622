@@ -1,4 +1,4 @@
-package part1;
+package Big_Homework.part1;
 
 public class a_Dni_Nedeli {
     public static void main(String[] args) {

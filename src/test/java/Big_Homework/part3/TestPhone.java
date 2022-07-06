@@ -1,4 +1,4 @@
-package part3;
+package Big_Homework.part3;
 // Читачі бібліотеки
 // а) Визначити клас Reader, який зберігає таку інформацію про користувача бібліотеки: ПІБ, номер квитка читача, телефон.
 //
@@ -30,5 +30,6 @@ public class TestPhone {
         p2.getNumber(25346345);
         p3.receiveCall("Sveta");
         p3.getNumber(23434656);
+        p1.toString();
     }
 }

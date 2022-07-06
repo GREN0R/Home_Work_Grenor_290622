@@ -1,4 +1,4 @@
-package part1;
+package Big_Homework.part1;
 
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package part1;
+package Big_Homework.part1;
 
 public class b_Mes9tsy {
     public static void main(String[] args) {

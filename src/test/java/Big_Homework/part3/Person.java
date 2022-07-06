@@ -1,4 +1,4 @@
-package part3;
+package Big_Homework.part3;
 //    Клас Person
 //    a) поля fullName, age.
 //    б) методи move() і talk(), у яких просто виводить в консоль повідомлення -"Person рухається" i "Person говорить".

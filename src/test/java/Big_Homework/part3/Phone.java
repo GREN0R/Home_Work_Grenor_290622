@@ -1,4 +1,4 @@
-package part3;
+package Big_Homework.part3;
 
 public class Phone {
     private int number;
@@ -47,5 +47,14 @@ public class Phone {
     }
 
     public Phone() {
+    }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "number=" + number +
+                ", model='" + model + '\'' +
+                ", weight=" + weight +
+                '}';
     }
 }
