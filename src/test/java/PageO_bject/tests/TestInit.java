@@ -1,4 +1,4 @@
-package PageO_bject;
+package PageO_bject.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -33,21 +33,10 @@ public class TestInit {
     }
 
     public void goToGoogle() {
+
         driver.get("https://www.google.com.ua/");
     }
-
-    public WebElement getSearchField() {
-        return driver.findElement(By.xpath("//input[@name='q']"));
-    }
-
-    public WebElement soundcloud() {
-        return driver.findElement(By.xpath("//h3[contains(text(), 'Stream and listen to music online for free with SoundCloud')]"));
-    }
-
-    public WebElement searchSoundcloud() {
-        return driver.findElement(By.xpath("//input[@name='q']"));
-    }
-    public WebElement acceptsoundcloud() {
-        return driver.findElement(By.xpath("//button[contains(@id, 'onetrust-accept')]"));
+    public void goToYahoo() {
+        driver.get("https//www.yahoo.com/");
     }
 }
